@@ -4,11 +4,11 @@ def greet_programmer
 end
 
 def greet(param)
-  puts "Hello, " + param + '!'
+  puts "Hello, #{param}!"
 end
 
 def greet_with_default(param="programmer")
-  puts "Hello, " + param + '!'
+  puts "Hello, #{param}!"
 end
 
 def add(x, y)
